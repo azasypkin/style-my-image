@@ -1,0 +1,96 @@
+body {
+    padding-bottom: 40px;
+}
+
+body > h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.toolbox {
+    margin-right: 40px;
+}
+
+.toolbox-control {
+    margin-bottom: 10px;
+}
+
+.toolbox-control input,
+.toolbox-control select {
+    float: right;
+    width: 150px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+
+.original-image,
+.target-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 20px;
+}
+
+.target-image {
+    transition: all 500ms;
+    float: left;
+}
+
+.original-image {
+    float: right;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul > li {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px dashed gray;
+}
+
+ul > li:nth-child(1) {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.original-image.hint:after,
+.original-image[data-hint]:after{
+    font-size: 1.6rem;
+}
+
+.hidden {
+    display: none;
+}
+
+code {
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+#get-css {
+    margin-bottom: 10px;
+}
+
+#property-control-container {
+    margin-bottom: 30px;
+}
