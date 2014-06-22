@@ -1,4 +1,6 @@
 (function(global) {
+  'use strict';
+
   global.ControlType = {
     COLOR: 0,
     SELECT: 1,
