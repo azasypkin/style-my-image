@@ -1,4 +1,4 @@
-style-my-image
+Style My Image!
 ==============
 
-Style My Image for Firefox Nightly
+[Try it out in Firefox Nightly or Chrome Canary!](http://azasypkin.github.io/style-my-image/)
